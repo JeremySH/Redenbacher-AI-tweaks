@@ -91,10 +91,10 @@ function ai_types() {
   
       // add Redenbacher version
       theName = i + " (Redenbacher)";      
-      settings["metal_drain_check"] =  settings["metal_drain_check"] * .26;
-      settings["metal_demand_check"] =  settings["metal_demand_check"] * .33;
-      settings["energy_drain_check"] = settings["energy_drain_check"] * .26;
-      settings["energy_demand_check"] = settings["energy_demand_check"] * .33;
+      settings["metal_drain_check"] =  settings["metal_drain_check"] * .35 ; //.26;
+      settings["metal_demand_check"] =  settings["metal_demand_check"] * .42; //.33;
+      settings["energy_drain_check"] = settings["energy_drain_check"] * 0.25;  //.26;
+      settings["energy_demand_check"] = settings["energy_demand_check"] * 0.30 //.33;
       Redenbacher_AIs[theName] = settings;
     }
 
